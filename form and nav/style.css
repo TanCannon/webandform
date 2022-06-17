@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('imageshtml/97539f6c79192e47.jpg' );
+    background-size: cover;
+} 
+.nav{
+    background-color: black;
+    overflow: hidden;
+    border-radius: 13px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    /* margin-left: 400px;
+    margin-right: 400px; */
+    /* border: 100px; */
+}
+.nav  li{
+    padding: 19px 16px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+.nav li a{
+    color:aliceblue;
+    text-decoration: none;
+    padding: 15px 16px;
+}
+.nav a:hover{
+    background-color: blueviolet;   
+}
+h1{
+    color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: brown;
+    text-align: center;
+    color: chocolate;
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+.formheader{
+   border-bottom-style: groove;
+   border-color: aquamarine;
+   margin-left: 100px;
+   margin-right: 100px;
+   padding-bottom: 12px;
+}
+.formheader span{
+    color:aliceblue;
+}
+.container{
+    text-align: center;
+    background-image: url('imageshtml/46fdf582380a8e4422e9a93353f958e1.jpg');
+    background-size: cover;
+    text-align: center;
+    border-radius: 40px;
+    padding-block: 50px;
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+label{
+    color:burlywood;
+    font-weight: 600;
+}
+.form pre{
+    color: aqua;
+}
+#firstname {
+    border-radius: 12px;
+    height: 50px;
+    margin:10px;
+    padding: 5px;
+}
+#lastname{
+    border-radius: 12px;
+    height: 50px;
+    margin:10px;
+    padding: 5px;
+}
+#username{
+    margin: 10px;
+    height:40px;
+    border-radius: 12px;
+    padding: 5px;
+}
+#email{
+    margin: 10px;
+    height:40px;
+    border-radius: 12px;
+    padding: 5px;
+}
+#phoneno{
+    margin: 10px;
+    height:40px;
+    border-radius: 12px;
+    padding: 5px;
+}
+#address{
+    margin: 10px;
+    height:40px;
+    border-radius: 12px;
+    padding: 5px;
+}
+#city{
+    border-radius: 12px;
+    height: 50px;
+    margin:10px;
+    padding: 5px;
+}
+#stateprovince{
+    border-radius: 12px;
+    height: 50px;
+    margin:10px;
+    padding: 5px;
+}
+#postal{
+    border-radius:10px;
+    height: 20px;
+    padding: 5px;
+    /* border-color: gold; */
+}
+input:hover{
+    border-color: gold;
+    color:green;
+    background: whitesmoke;
+    box-shadow: 0 0 10px aqua, 0 0 40px aqua, 0 0 80px aqua;
+}
+.form #but{
+    padding: 20px;
+    border-radius: 12px;
+    margin: 12px;
+    color:grey;
+   
+}
+.form #but:hover{
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-top-color:aqua;
+    transition-delay: 0.3s;
+    border-left-color:aqua;
+    transition-delay: 0.3s;
+    border-bottom-color:aqua;
+    transition-delay: 0.3s;
+    border-right-color:aqua;
+    transition-delay: 5s;
+    background:red;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+    transition: 1s;
+}
